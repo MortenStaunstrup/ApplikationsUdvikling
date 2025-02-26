@@ -1,0 +1,166 @@
+﻿@page "/weather"
+@using System.Globalization
+@inject HttpClient Http
+
+<PageTitle>Weather</PageTitle>
+
+<h1>Weather</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<button @onclick="GenerateForecasts">More Forecasts</button>
+<button @onclick="DeleteForecasts">Less Forecasts</button>
+
+<button @onclick="FilterAll">All</button>
+<button @onclick="FilterWarm">Varme</button>
+<button @onclick="FilterCold">Kolde</button>
+@if (forecasts == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th aria-label="Temperature in Celsius">Temp. (C)</th>
+            <th aria-label="Temperature in Farenheit">Temp. (F)</th>
+            <th>Summary</th>
+            <th>By</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var forecast in forecasts)
+        {
+            if (warm)
+            {
+                if (forecast.TemperatureC > 10)
+                {
+                    <tr>
+                        <td>@forecast.Date</td>
+                        <td>@forecast.TemperatureC</td>
+                        <td>@forecast.TemperatureF</td>
+                        <td>@forecast.Summary</td>
+                        <td>@forecast.City</td>
+                    </tr>
+                }
+            } else if (cold)
+            {
+                if (forecast.TemperatureC <= 10)
+                {
+                    <tr>
+                        <td>@forecast.Date</td>
+                        <td>@forecast.TemperatureC</td>
+                        <td>@forecast.TemperatureF</td>
+                        <td>@forecast.Summary</td>
+                        <td>@forecast.City</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td>@forecast.Date</td>
+                    <td>@forecast.TemperatureC</td>
+                    <td>@forecast.TemperatureF</td>
+                    <td>@forecast.Summary</td>
+                    <td>@forecast.City</td>
+                </tr>
+            }
+            
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<WeatherForecast>? forecasts;
+    private DateTime Today = DateTime.Today;
+    int numberForecasts = 10;
+    bool warm = false;
+    bool cold = false;
+
+    protected override void OnInitialized()
+    {
+        string[] summaries = { "Koldt og blæsende", "varmt og solrigt", "stille og gråt" };
+        string[] byer =
+        {
+            "Brørup", "Århus", "Lystrup", "Kolding", "Odense", "Horsens", "Thisted", "Københoved", "København",
+            "Madrid", "Fredericia", "Lunderskov", "Mårslet", "Viby"
+        };
+
+        forecasts = Enumerable.Range(0, 10).Select((idx) =>
+            new WeatherForecast
+            {
+                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(idx)),
+                TemperatureC = Random.Shared.Next(20) + 1,
+                Summary = summaries[Random.Shared.Next(summaries.Length)],
+                City = byer[Random.Shared.Next(byer.Length)]
+            }).ToList();
+    }
+
+    public void DeleteForecasts()
+    {
+        if (numberForecasts > 5)
+        {
+            forecasts.RemoveRange(forecasts.Count-5, 5);
+            numberForecasts -= 5;
+        }
+    }
+
+    public void GenerateForecasts()
+    {
+        string[] summaries = { "Koldt og blæsende", "varmt og solrigt", "stille og gråt" };
+        string[] byer =
+        {
+            "Brørup", "Århus", "Lystrup", "Kolding", "Odense", "Horsens", "Thisted", "Københoved", "København",
+            "Madrid", "Fredericia", "Lunderskov", "Mårslet", "Viby"
+        };
+
+        for (int i = 0; i < 5; i++)
+        {
+            forecasts.Add(new WeatherForecast{Date = forecasts[forecasts.Count - 1].Date.AddDays(1), TemperatureC = Random.Shared.Next(20) + 1,
+                Summary = summaries[Random.Shared.Next(summaries.Length)],
+                City = byer[Random.Shared.Next(byer.Length)]});
+        }
+
+        numberForecasts += 5;
+    }
+
+    public class WeatherForecast
+    {
+        public DateOnly Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public string? Summary { get; set; }
+        
+        public string? City { get; set; }
+
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+
+    private void FilterWarm()
+    {
+        cold = false;
+        warm = true;
+
+    }
+
+    private void FilterCold()
+    {
+        warm = false;
+        cold = true;
+
+    }
+
+    private void FilterAll()
+    {
+        warm = false;
+        cold = false;
+    }
+
+}

@@ -1,0 +1,15 @@
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/bin/Debug/net9.0/Modul7CronOpg
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/bin/Debug/net9.0/Modul7CronOpg.deps.json
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/bin/Debug/net9.0/Modul7CronOpg.runtimeconfig.json
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/bin/Debug/net9.0/Modul7CronOpg.dll
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/bin/Debug/net9.0/Modul7CronOpg.pdb
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/obj/Debug/net9.0/Modul7CronOpg.GeneratedMSBuildEditorConfig.editorconfig
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/obj/Debug/net9.0/Modul7CronOpg.AssemblyInfoInputs.cache
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/obj/Debug/net9.0/Modul7CronOpg.AssemblyInfo.cs
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/obj/Debug/net9.0/Modul7CronOpg.csproj.CoreCompileInputs.cache
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/obj/Debug/net9.0/Modul7CronOpg.sourcelink.json
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/obj/Debug/net9.0/Modul7CronOpg.dll
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/obj/Debug/net9.0/refint/Modul7CronOpg.dll
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/obj/Debug/net9.0/Modul7CronOpg.pdb
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/obj/Debug/net9.0/Modul7CronOpg.genruntimeconfig.cache
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul7CronOpg/obj/Debug/net9.0/ref/Modul7CronOpg.dll

@@ -1,0 +1,73 @@
+@page "/tictactoe"
+<h3>Welcome to Tic-tac-toe</h3>
+
+<p>It is @(xTurn ? "X's" : "O's") turn</p>
+
+@if ((XOs[0] == 'X' && XOs[1] == 'X' && XOs[2] == 'X')
+    || (XOs[3] == 'X' && XOs[4] == 'X' && XOs[5] == 'X')
+    || (XOs[6] == 'X' && XOs[7] == 'X' && XOs[8] == 'X')
+    || (XOs[0] == 'X' && XOs[3] == 'X' && XOs[6] == 'X')
+    || (XOs[1] == 'X' && XOs[4] == 'X' && XOs[7] == 'X')
+    || (XOs[2] == 'X' && XOs[5] == 'X' && XOs[8] == 'X')
+    || (XOs[0] == 'X' && XOs[4] == 'X' && XOs[8] == 'X')
+    || (XOs[2] == 'X' && XOs[4] == 'X' && XOs[6] == 'X'))
+{
+    <h1>X Won!!!</h1>
+} else if ((XOs[0] == 'O' && XOs[1] == 'O' && XOs[2] == 'O')
+           || (XOs[3] == 'O' && XOs[4] == 'O' && XOs[5] == 'O')
+           || (XOs[6] == 'O' && XOs[7] == 'O' && XOs[8] == 'O')
+           || (XOs[0] == 'O' && XOs[3] == 'O' && XOs[6] == 'O')
+           || (XOs[1] == 'O' && XOs[4] == 'O' && XOs[7] == 'O')
+           || (XOs[2] == 'O' && XOs[5] == 'O' && XOs[8] == 'O')
+           || (XOs[0] == 'O' && XOs[4] == 'O' && XOs[8] == 'O')
+           || (XOs[2] == 'O' && XOs[4] == 'O' && XOs[6] == 'O'))
+{
+    <h1>O Won!!!</h1>
+}
+
+<button class="tictactoebutton" @onclick="() => XO(0)">@XOs[0]</button>
+<button class="tictactoebutton" @onclick="() => XO(1)">@XOs[1]</button>
+<button class="tictactoebutton" @onclick="() => XO(2)">@XOs[2]</button> <br/>
+<button class="tictactoebutton" @onclick="() => XO(3)">@XOs[3]</button>
+<button class="tictactoebutton" @onclick="() => XO(4)">@XOs[4]</button>
+<button class="tictactoebutton" @onclick="() => XO(5)">@XOs[5]</button> <br/>
+<button class="tictactoebutton" @onclick="() => XO(6)">@XOs[6]</button>
+<button class="tictactoebutton" @onclick="() => XO(7)">@XOs[7]</button>
+<button class="tictactoebutton" @onclick="() => XO(8)">@XOs[8]</button> <br/>
+
+<button class="btn btn-primary" @onclick="Reset">Reset</button>
+
+@code {
+    bool xTurn = true;
+    char[] XOs = new char[9];
+
+    private void Reset()
+    {
+        for (int i = 0; i < XOs.Length; i++)
+        {
+            XOs[i] = ' ';
+        }
+    }
+    
+    private void XO(int index)
+    {
+        if (xTurn)
+        {
+            if (XOs[index] == 'X' || XOs[index] == 'O')
+            {
+                return;
+            }
+            XOs[index] = 'X';
+            xTurn = false;
+        }
+        else
+        {
+            if (XOs[index] == 'X' || XOs[index] == 'O')
+            {
+                return;
+            }
+            XOs[index] = 'O';
+            xTurn = true;
+        }
+    }
+}

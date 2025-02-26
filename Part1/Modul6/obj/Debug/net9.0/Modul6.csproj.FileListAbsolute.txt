@@ -1,0 +1,15 @@
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/bin/Debug/net9.0/Modul6
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/bin/Debug/net9.0/Modul6.deps.json
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/bin/Debug/net9.0/Modul6.runtimeconfig.json
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/bin/Debug/net9.0/Modul6.dll
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/bin/Debug/net9.0/Modul6.pdb
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/obj/Debug/net9.0/Modul6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/obj/Debug/net9.0/Modul6.AssemblyInfoInputs.cache
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/obj/Debug/net9.0/Modul6.AssemblyInfo.cs
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/obj/Debug/net9.0/Modul6.csproj.CoreCompileInputs.cache
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/obj/Debug/net9.0/Modul6.sourcelink.json
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/obj/Debug/net9.0/Modul6.dll
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/obj/Debug/net9.0/refint/Modul6.dll
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/obj/Debug/net9.0/Modul6.pdb
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/obj/Debug/net9.0/Modul6.genruntimeconfig.cache
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul6/obj/Debug/net9.0/ref/Modul6.dll

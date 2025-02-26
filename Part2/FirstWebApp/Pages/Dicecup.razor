@@ -1,0 +1,71 @@
+@page "/dicecup"
+@using FirstWebApp.Logic
+
+<PageTitle>Dice Cup</PageTitle>
+
+<h3>Dice Cup</h3>
+
+<p>Velkommen til dine dice!</p>
+
+
+<label>Antal Dice</label>
+<input type="number" @bind="userInput" min="1" max="6"/>
+
+
+<button @onclick="MakeDice">Submit</button>
+<br/><br/><br/>
+
+@for (int i = 0; i < userInput; i++)
+{
+    int DiceNumber = i+1;
+    <p>Dice @DiceNumber: <img style="max-width: 100px; max-height: 100px" src="DicePics/@ReturnPic(currentEyes[i])"/></p>
+}
+
+<button class="btn btn-primary" @onclick="RollTheDice">Randomize</button>
+
+@code {
+    int userInput;
+    DiceCup cup;
+    List<int> currentEyes;
+
+    private void MakeDice()
+    {
+        cup = new DiceCup(userInput);
+        currentEyes = cup.GetEyes();
+    }
+
+    private void RollTheDice()
+    {
+        cup.Shake();
+        currentEyes = cup.GetEyes();
+    }
+
+    private string ReturnPic(int eyes)
+    {
+        string result = "dice1.jpeg";
+        switch (eyes)
+        {
+            case 1:
+                result = "dice1.jpeg";
+                break;
+            case 2:
+                result = "dice2.jpg";
+                break;
+            case 3:
+                result = "dice3.jpg";
+                break;
+            case 4:
+                result = "dice4.jpg";
+                break;
+            case 5:
+                result = "dice5.jpg";
+                break;
+            case 6:
+                result = "dice6.jpg";
+                break;
+        }
+
+        return result;
+    }
+
+}

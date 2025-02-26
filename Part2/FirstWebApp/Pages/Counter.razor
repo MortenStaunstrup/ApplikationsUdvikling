@@ -1,0 +1,35 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: <b style="color: @(currentCount == 12 ? "red" : "black")">@currentCount</b></p>
+<p>Random number between 0 and <b style="color: @(currentCount == 12 ? "red" : "black")">@currentCount</b>: <b style="color: @(ranNum == 12 ? "red" : "black")">@ranNum</b></p>
+
+<button class="btn btn-primary" @onclick="BothFunctions">Click me</button>
+
+@code {
+    private int currentCount = 0;
+    private Random rnd = new Random();
+    private int ranNum = 0;
+    
+
+    private void BothFunctions()
+    {
+        IncrementCount();
+        RandomNum();
+    }
+    
+    
+    private void IncrementCount()
+    {
+        currentCount ++;
+    }
+
+    private void RandomNum()
+    {
+        ranNum = rnd.Next(currentCount) + 1;
+    }
+
+}

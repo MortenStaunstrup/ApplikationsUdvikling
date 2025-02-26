@@ -1,0 +1,15 @@
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/bin/Debug/net9.0/Modul3
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/bin/Debug/net9.0/Modul3.deps.json
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/bin/Debug/net9.0/Modul3.runtimeconfig.json
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/bin/Debug/net9.0/Modul3.dll
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/bin/Debug/net9.0/Modul3.pdb
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/obj/Debug/net9.0/Modul3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/obj/Debug/net9.0/Modul3.AssemblyInfoInputs.cache
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/obj/Debug/net9.0/Modul3.AssemblyInfo.cs
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/obj/Debug/net9.0/Modul3.csproj.CoreCompileInputs.cache
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/obj/Debug/net9.0/Modul3.sourcelink.json
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/obj/Debug/net9.0/Modul3.dll
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/obj/Debug/net9.0/refint/Modul3.dll
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/obj/Debug/net9.0/Modul3.pdb
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/obj/Debug/net9.0/Modul3.genruntimeconfig.cache
+/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part1/Modul3/obj/Debug/net9.0/ref/Modul3.dll
