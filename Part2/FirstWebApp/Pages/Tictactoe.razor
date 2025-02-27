@@ -12,6 +12,7 @@
     || (XOs[0] == 'X' && XOs[4] == 'X' && XOs[8] == 'X')
     || (XOs[2] == 'X' && XOs[4] == 'X' && XOs[6] == 'X'))
 {
+    gameOver = true;
     <h1>X Won!!!</h1>
 } else if ((XOs[0] == 'O' && XOs[1] == 'O' && XOs[2] == 'O')
            || (XOs[3] == 'O' && XOs[4] == 'O' && XOs[5] == 'O')
@@ -22,6 +23,7 @@
            || (XOs[0] == 'O' && XOs[4] == 'O' && XOs[8] == 'O')
            || (XOs[2] == 'O' && XOs[4] == 'O' && XOs[6] == 'O'))
 {
+    gameOver = true;
     <h1>O Won!!!</h1>
 }
 
@@ -40,17 +42,27 @@
 @code {
     bool xTurn = true;
     char[] XOs = new char[9];
+    bool gameOver = false;
 
     private void Reset()
     {
         for (int i = 0; i < XOs.Length; i++)
         {
-            XOs[i] = ' ';
+            
+            XOs[i] = default;
+            
         }
+
+        xTurn = true;
+        gameOver = false;
     }
     
     private void XO(int index)
     {
+        if (gameOver)
+        {
+            return;
+        }
         if (xTurn)
         {
             if (XOs[index] == 'X' || XOs[index] == 'O')

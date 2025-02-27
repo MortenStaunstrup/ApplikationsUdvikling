@@ -1,4 +1,6 @@
-﻿@page "/counter"
+﻿@inject Blazored.LocalStorage.ILocalStorageService localStore
+@page "/counter"
+@using System.Timers
 
 <PageTitle>Counter</PageTitle>
 
@@ -7,18 +9,63 @@
 <p role="status">Current count: <b style="color: @(currentCount == 12 ? "red" : "black")">@currentCount</b></p>
 <p>Random number between 0 and <b style="color: @(currentCount == 12 ? "red" : "black")">@currentCount</b>: <b style="color: @(ranNum == 12 ? "red" : "black")">@ranNum</b></p>
 
-<button class="btn btn-primary" @onclick="BothFunctions">Click me</button>
+<button class="btn btn-primary" @onclick="BothFunctions">Increase count</button>
+<button class="btn" @onclick="ClearLocalStorage">Reset count</button>
+
+<p>@currentTime</p>
+@if (currentTime >= 60)
+{
+    ClearLocalStorage();
+}
+
 
 @code {
-    private int currentCount = 0;
+    private int currentCount;
     private Random rnd = new Random();
-    private int ranNum = 0;
+    private int ranNum;
+    private string countKey = "count";
+    private string timerKey = "timer";
+    private Timer _timer;
+    private int maxTid = 60;
+    private int currentTime;
     
+    protected override void OnInitialized()
+    {
+        _timer = new Timer(1000);
+        _timer.Elapsed += async (object? sender, ElapsedEventArgs e) =>
+        {
+            currentTime++;
+            await InvokeAsync(StateHasChanged);
+            await localStore.SetItemAsync(timerKey, currentTime);
+        };
+        _timer.Enabled = true;
+    }
+
+    public async void UpdateLocalStorage()
+    {
+        await localStore.SetItemAsync(countKey, currentCount);
+    }
+    
+    public async void ClearLocalStorage()
+    {
+        currentCount = 0;
+        ranNum = 0;
+        currentTime = 0;
+        await localStore.ClearAsync();
+    }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        currentCount = await localStore.GetItemAsync<int>(countKey);
+        currentTime = await localStore.GetItemAsync<int>(timerKey);
+    }
 
     private void BothFunctions()
     {
         IncrementCount();
         RandomNum();
+        UpdateLocalStorage();
+        currentTime = 0;
     }
     
     
