@@ -28,6 +28,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/Pages/AddProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRkUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,10 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/Pages/Test.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/Pages/Tictactoe.razor]
@@ -63,3 +63,11 @@ build_metadata.AdditionalFiles.CssScope = b-7fwbfo8qzu
 [/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-sim3ztn1sp
+
+[/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/Pages/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ao0uc29mc5
+
+[/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/Pages/Todo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVG9kby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-dywe243tqn

@@ -1,0 +1,81 @@
+@inject Blazored.LocalStorage.ILocalStorageService localStore
+@page "/productpage"
+@using FirstWebApp.Logic
+
+<h3>Products</h3>
+<div class="table">
+
+    <table>
+        <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Category
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Stock
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                IsPublished
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in ProductList)
+        {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.Description
+                </td>
+                <td>
+                    @item.Category
+                </td>
+                <td>
+                    @item.Price.ToString("C")
+                </td>
+                <td>
+                    @item.Stock.ToString("N0")
+                </td>
+                <td>
+                    @item.Date
+                </td>
+                <td>
+                    @item.IsPublished
+                </td>
+            </tr>
+ 
+        }
+        </tbody>
+    </table>
+</div>
+
+<div style="display: flex">
+    <a href="/addproductpage" id="AddProductButton">+</a>
+    <p>Add product</p>
+</div>
+
+@code {
+    List<Product> ProductList = new List<Product>();
+    string key = AddProduct.ProductListKey;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if(await localStore.GetItemAsync<List<Product>>("ProductsKey") != null)
+            ProductList = await localStore.GetItemAsync<List<Product>>(key);
+    }
+
+}

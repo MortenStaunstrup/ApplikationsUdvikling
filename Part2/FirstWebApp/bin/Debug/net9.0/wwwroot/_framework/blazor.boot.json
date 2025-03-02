@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FirstWebApp",
   "resources": {
-    "hash": "sha256-Jq/FxUb2iALSFy3m/xLUn5RWOAt9hNO5otIVM3ld7F4=",
+    "hash": "sha256-iQVxP6WOVKlOQ5QSq4L/8Lok7TgFCqQJ+KgOppM0yMk=",
     "fingerprinting": {
       "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
@@ -202,8 +202,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "FirstWebApp.92ix9gtsy0.wasm": "FirstWebApp.wasm",
-      "FirstWebApp.dld3mf9pn3.pdb": "FirstWebApp.pdb"
+      "FirstWebApp.x0gmlykka8.wasm": "FirstWebApp.wasm",
+      "FirstWebApp.vjgmhqnjdx.pdb": "FirstWebApp.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -414,10 +414,10 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "FirstWebApp.92ix9gtsy0.wasm": "sha256-sZKemgaKLhVRWHJzvRCB8vWYUESBNgPFhVkPUgruLvU="
+      "FirstWebApp.x0gmlykka8.wasm": "sha256-X8inSwgZWYudr60waZVOOK7sjMjqO3QG8h6D0k3xd2Y="
     },
     "pdb": {
-      "FirstWebApp.dld3mf9pn3.pdb": "sha256-kakkEGiAFYE2FchUhLqVCkCHL6YGnb80949wlM4YNhE="
+      "FirstWebApp.vjgmhqnjdx.pdb": "sha256-S4aCTM80fnY6C5cyz/vPpXp15vQG0XKJqDSSEwZOx9w="
     }
   },
   "cacheBootResources": true,

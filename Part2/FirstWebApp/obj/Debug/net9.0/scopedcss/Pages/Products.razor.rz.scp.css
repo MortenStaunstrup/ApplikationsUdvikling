@@ -1,0 +1,33 @@
+table[b-ao0uc29mc5] {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th[b-ao0uc29mc5], td[b-ao0uc29mc5] {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even)[b-ao0uc29mc5]{background-color: #f2f2f2}
+
+th[b-ao0uc29mc5] {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+#AddProductButton[b-ao0uc29mc5]{
+    width: 30px;
+    height: 30px;
+    background: green;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+    transition: background 0.2s;
+    margin-right: 10px;
+}

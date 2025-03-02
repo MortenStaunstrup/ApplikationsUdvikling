@@ -9,7 +9,7 @@ main[b-7fwbfo8qzu] {
 }
 
 .sidebar[b-7fwbfo8qzu] {
-    background-color: red;
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
 }
 
 .top-row[b-7fwbfo8qzu] {
@@ -56,7 +56,6 @@ main[b-7fwbfo8qzu] {
         height: 100vh;
         position: sticky;
         top: 0;
-        background-color: blue;
     }
 
     .top-row[b-7fwbfo8qzu] {

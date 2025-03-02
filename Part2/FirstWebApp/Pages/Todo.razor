@@ -1,0 +1,97 @@
+﻿@inject Blazored.LocalStorage.ILocalStorageService localStore
+@page "/todo"
+@using FirstWebApp.Logic
+<PageTitle>Todo</PageTitle>
+
+<h1>Todo  (not done: @todos.Count(todo => !todo.IsDone))</h1>
+
+<div class="tableAndButtons">
+
+    <table>
+        <thead>
+        
+            <tr>
+                <th>
+                    Done?
+                </th>
+                <th>
+                    ToDo
+                </th>
+                <th>
+                    Remove ToDo
+                </th>
+            </tr>
+
+        </thead>
+        <tbody>
+        @foreach (var todo in todos)
+        {
+            <tr>
+
+                <td>
+                    <InputCheckbox @onclick="UpdateLocalStorage" @bind-Value="todo.IsDone"/>
+                </td>
+                <td>
+                    @todo.Title
+                </td>
+                <td>
+                    <button class="deletebutton" @onclick="() => RemoveToDo(todo)">X</button>
+                </td>
+
+            </tr>
+        }
+        </tbody>
+    </table>
+    <div class="buttons">
+        <InputText placeholder="Something todo" @bind-Value="newTodo" />
+        <button @onclick="AddTodo">Add todo</button>
+    </div>
+</div>
+
+@code {
+    private string? newTodo;
+    private string todoKey = "key";
+
+    private List<ToDoItem> todos = new();
+    
+    public async Task UpdateLocalStorage()
+    {
+        await Task.Delay(1);
+        await localStore.SetItemAsync(todoKey, todos);
+    }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        if(await localStore.GetItemAsync<List<ToDoItem>>(todoKey) == null)
+            return;
+        else
+        {
+            todos = await localStore.GetItemAsync<List<ToDoItem>>(todoKey);
+        }
+    }
+
+    private void AddTodo()
+    {
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            todos.Add(new ToDoItem { Title = newTodo });
+            newTodo = string.Empty;
+            UpdateLocalStorage();
+        }
+    }
+
+    public void RemoveToDo(ToDoItem item)
+    {
+        todos.Remove(item);
+        UpdateLocalStorage();
+    }
+    
+    public void onToDoChanged(ToDoItem todo)
+    {
+        Console.WriteLine("onToDoChanged " + todo.Title);
+    }
+
+  
+
+}
+

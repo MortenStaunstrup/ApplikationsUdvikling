@@ -1,0 +1,50 @@
+table[b-dywe243tqn] {
+    table-layout: fixed;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+.buttons[b-dywe243tqn]{
+    padding-top: 50px;
+}
+
+th[b-dywe243tqn],
+td[b-dywe243tqn] {
+    padding: 20px;
+    text-align: center;
+}
+
+.tableAndButtons[b-dywe243tqn]{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+tbody  tr:nth-child(odd)[b-dywe243tqn] {
+    background-color: white;
+}
+
+tbody tr:nth-child(even)[b-dywe243tqn] {
+    background-color: lightgreen;
+}
+
+.deletebutton[b-dywe243tqn]{
+    width: 30px;
+    height: 30px;
+    background: red;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.deletebutton:hover[b-dywe243tqn] {
+    background: darkred;
+}
