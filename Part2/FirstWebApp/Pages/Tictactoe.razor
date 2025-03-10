@@ -39,6 +39,8 @@
 
 <button class="btn btn-primary" @onclick="Reset">Reset</button>
 
+<CounterComp amountOfDice="6"></CounterComp>
+
 @code {
     bool xTurn = true;
     char[] XOs = new char[9];

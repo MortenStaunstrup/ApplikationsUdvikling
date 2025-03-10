@@ -7,35 +7,45 @@
 
 <p>Velkommen til dine dice!</p>
 
-
+@if (dicefound)
+{
 <label>Antal Dice</label>
 <input type="number" @bind="userInput" min="1" max="6"/>
-
-
 <button @onclick="MakeDice">Submit</button>
-<br/><br/><br/>
-
-@for (int i = 0; i < userInput; i++)
-{
-    int DiceNumber = i+1;
-    <p>Dice @DiceNumber: <img style="max-width: 100px; max-height: 100px" src="DicePics/@ReturnPic(currentEyes[i])"/></p>
 }
 
+@if (userInput != null || userInput != 0 || cup != null)
+{
+    @for (int i = 0; i < userInput; i++)
+    {
+        int DiceNumber = i+1;
+        <p>Dice @DiceNumber: <img style="max-width: 100px; max-height: 100px" src="DicePics/@ReturnPic(currentEyes[i])"/></p>
+    }
+}
+
+
+
 <button class="btn btn-primary" @onclick="RollTheDice">Randomize</button>
+
+<CounterComp amountOfDice="3"></CounterComp>
 
 @code {
     int userInput;
     DiceCup cup;
     List<int> currentEyes;
+    bool dicefound = true;
 
     private void MakeDice()
     {
         cup = new DiceCup(userInput);
         currentEyes = cup.GetEyes();
+        dicefound = false;
     }
 
     private void RollTheDice()
     {
+        if (cup == null)
+            return;
         cup.Shake();
         currentEyes = cup.GetEyes();
     }

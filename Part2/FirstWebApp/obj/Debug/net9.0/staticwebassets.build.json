@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SnawepSOBQV9V9ctuepbC7trqvRoACGF1wrwyldSg5o=",
+  "Hash": "eC5zs0nlAZTEwor7tdBJjHksYX0fL19KQlYLXoZMdpo=",
   "Source": "FirstWebApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "sne7zap14j",
-      "Integrity": "CH+YZBbExob+xPj+Z2b7eLLG5MU1T2KqFZCLn9AIbR4=",
+      "Fingerprint": "fzlvvktgvi",
+      "Integrity": "C6D1KC2GOK118JyD8bnfIXqfhyizS9M9oBItKLYkEmk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "vjgmhqnjdx",
-      "Integrity": "S4aCTM80fnY6C5cyz/vPpXp15vQG0XKJqDSSEwZOx9w=",
+      "Fingerprint": "efokqqzg2i",
+      "Integrity": "VhWllB8uvefnFWZrLOBAZ13vYsTjMfF02unk3jEpwCc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/FirstWebApp.pdb"
@@ -241,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "x0gmlykka8",
-      "Integrity": "X8inSwgZWYudr60waZVOOK7sjMjqO3QG8h6D0k3xd2Y=",
+      "Fingerprint": "68g1oaldwx",
+      "Integrity": "mudDFRJCqYultMDtAuhu5QZ2QkQA1cmD0ut9U/U5UEY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/webcil/FirstWebApp.wasm"
@@ -4952,12 +4952,12 @@
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/System.Security.Claims.wasm"
     },
     {
-      "Identity": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/4g5ydbg7qt-vjgmhqnjdx.gz",
+      "Identity": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/4g5ydbg7qt-efokqqzg2i.gz",
       "SourceId": "FirstWebApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/FirstWebApp#[.{fingerprint=vjgmhqnjdx}]!.pdb.gz",
+      "RelativePath": "_framework/FirstWebApp#[.{fingerprint=efokqqzg2i}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4966,8 +4966,8 @@
       "RelatedAsset": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/FirstWebApp.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xvdgcegeww",
-      "Integrity": "s1FjkNvfwB/5oYRBygyudpC7IR2R7NNmURzWo008IgE=",
+      "Fingerprint": "pn7ubvujrj",
+      "Integrity": "uxbt4+D1YcLBnu6Sx/AnZ0Ygwr8B8iye2qcVzQ8EfC8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/FirstWebApp.pdb"
@@ -5582,12 +5582,12 @@
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.wasm"
     },
     {
-      "Identity": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/86wmhtub8s-x0gmlykka8.gz",
+      "Identity": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/86wmhtub8s-68g1oaldwx.gz",
       "SourceId": "FirstWebApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/FirstWebApp#[.{fingerprint=x0gmlykka8}]!.wasm.gz",
+      "RelativePath": "_framework/FirstWebApp#[.{fingerprint=68g1oaldwx}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5596,8 +5596,8 @@
       "RelatedAsset": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/FirstWebApp.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "m0hul9dw4x",
-      "Integrity": "WoX8oDr+TxOGC330gyo6M614epXHaP8JlEuDD6objvM=",
+      "Fingerprint": "t91frvwvqz",
+      "Integrity": "z7Rl/XuTwJuQk90Z9403ueC8YvVxJu3oO+Sibl0aSZE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/FirstWebApp.wasm"
@@ -6149,12 +6149,12 @@
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/System.Runtime.Serialization.Xml.wasm"
     },
     {
-      "Identity": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/c6n9kywbar-4qa5s01xae.gz",
+      "Identity": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/c6n9kywbar-7kx45txatm.gz",
       "SourceId": "FirstWebApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "FirstWebApp#[.{fingerprint=4qa5s01xae}]?.styles.css.gz",
+      "RelativePath": "FirstWebApp#[.{fingerprint=7kx45txatm}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -6163,8 +6163,8 @@
       "RelatedAsset": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/scopedcss/bundle/FirstWebApp.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jtthfwswbd",
-      "Integrity": "N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8=",
+      "Fingerprint": "igl2cxrqru",
+      "Integrity": "3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/scopedcss/bundle/FirstWebApp.styles.css"
@@ -7262,7 +7262,7 @@
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/System.IO.Compression.Brotli.wasm"
     },
     {
-      "Identity": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/k6wi72gc13-sne7zap14j.gz",
+      "Identity": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/k6wi72gc13-fzlvvktgvi.gz",
       "SourceId": "FirstWebApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/",
@@ -7276,8 +7276,8 @@
       "RelatedAsset": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "7sbmixb9sk",
-      "Integrity": "2bRhEsekp/2aFZHuWMvzx25Zyom0Nq2v0cU7m7juuJc=",
+      "Fingerprint": "mki3h7pxsa",
+      "Integrity": "xn0joKwI1rM7VI/RtfkouF+H6PZmIBkD0pJLsQCAS/Y=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -9005,12 +9005,12 @@
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/System.Runtime.Serialization.Formatters.wasm"
     },
     {
-      "Identity": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/w5y23chr26-4qa5s01xae.gz",
+      "Identity": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/w5y23chr26-7kx45txatm.gz",
       "SourceId": "FirstWebApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "FirstWebApp#[.{fingerprint=4qa5s01xae}]!.bundle.scp.css.gz",
+      "RelativePath": "FirstWebApp#[.{fingerprint=7kx45txatm}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -9019,8 +9019,8 @@
       "RelatedAsset": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/scopedcss/projectbundle/FirstWebApp.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jtthfwswbd",
-      "Integrity": "N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8=",
+      "Fingerprint": "igl2cxrqru",
+      "Integrity": "3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/scopedcss/projectbundle/FirstWebApp.bundle.scp.css"
@@ -9670,8 +9670,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "4qa5s01xae",
-      "Integrity": "dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI=",
+      "Fingerprint": "7kx45txatm",
+      "Integrity": "GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/scopedcss/bundle/FirstWebApp.styles.css"
@@ -9691,8 +9691,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "4qa5s01xae",
-      "Integrity": "dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI=",
+      "Fingerprint": "7kx45txatm",
+      "Integrity": "GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/scopedcss/projectbundle/FirstWebApp.bundle.scp.css"
@@ -10873,11 +10873,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CH+YZBbExob+xPj+Z2b7eLLG5MU1T2KqFZCLn9AIbR4=\""
+          "Value": "\"C6D1KC2GOK118JyD8bnfIXqfhyizS9M9oBItKLYkEmk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Sun, 09 Mar 2025 13:45:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10887,18 +10887,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CH+YZBbExob+xPj+Z2b7eLLG5MU1T2KqFZCLn9AIbR4="
+          "Value": "sha256-C6D1KC2GOK118JyD8bnfIXqfhyizS9M9oBItKLYkEmk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/k6wi72gc13-sne7zap14j.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/k6wi72gc13-fzlvvktgvi.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080808081"
+          "Quality": "0.000080827675"
         }
       ],
       "ResponseHeaders": [
@@ -10908,15 +10908,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12374"
+          "Value": "12371"
         },
         {
           "Name": "ETag",
-          "Value": "\"2bRhEsekp/2aFZHuWMvzx25Zyom0Nq2v0cU7m7juuJc=\""
+          "Value": "\"xn0joKwI1rM7VI/RtfkouF+H6PZmIBkD0pJLsQCAS/Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:16:18 GMT"
+          "Value": "Sat, 08 Mar 2025 16:04:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10936,19 +10936,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"CH+YZBbExob+xPj+Z2b7eLLG5MU1T2KqFZCLn9AIbR4=\""
+          "Value": "W/\"C6D1KC2GOK118JyD8bnfIXqfhyizS9M9oBItKLYkEmk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CH+YZBbExob+xPj+Z2b7eLLG5MU1T2KqFZCLn9AIbR4="
+          "Value": "sha256-C6D1KC2GOK118JyD8bnfIXqfhyizS9M9oBItKLYkEmk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/k6wi72gc13-sne7zap14j.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/k6wi72gc13-fzlvvktgvi.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10957,7 +10957,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12374"
+          "Value": "12371"
         },
         {
           "Name": "Content-Type",
@@ -10965,11 +10965,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2bRhEsekp/2aFZHuWMvzx25Zyom0Nq2v0cU7m7juuJc=\""
+          "Value": "\"xn0joKwI1rM7VI/RtfkouF+H6PZmIBkD0pJLsQCAS/Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:16:18 GMT"
+          "Value": "Sat, 08 Mar 2025 16:04:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10987,7 +10987,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2bRhEsekp/2aFZHuWMvzx25Zyom0Nq2v0cU7m7juuJc="
+          "Value": "sha256-xn0joKwI1rM7VI/RtfkouF+H6PZmIBkD0pJLsQCAS/Y="
         }
       ]
     },
@@ -13215,305 +13215,7 @@
       ]
     },
     {
-      "Route": "_framework/FirstWebApp.pdb",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/FirstWebApp.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "44480"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"S4aCTM80fnY6C5cyz/vPpXp15vQG0XKJqDSSEwZOx9w=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-S4aCTM80fnY6C5cyz/vPpXp15vQG0XKJqDSSEwZOx9w="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FirstWebApp.pdb",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/4g5ydbg7qt-vjgmhqnjdx.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000029244042"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "34194"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"s1FjkNvfwB/5oYRBygyudpC7IR2R7NNmURzWo008IgE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"S4aCTM80fnY6C5cyz/vPpXp15vQG0XKJqDSSEwZOx9w=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-S4aCTM80fnY6C5cyz/vPpXp15vQG0XKJqDSSEwZOx9w="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FirstWebApp.pdb.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/4g5ydbg7qt-vjgmhqnjdx.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "34194"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"s1FjkNvfwB/5oYRBygyudpC7IR2R7NNmURzWo008IgE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-s1FjkNvfwB/5oYRBygyudpC7IR2R7NNmURzWo008IgE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FirstWebApp.vjgmhqnjdx.pdb",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/FirstWebApp.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "44480"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"S4aCTM80fnY6C5cyz/vPpXp15vQG0XKJqDSSEwZOx9w=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vjgmhqnjdx"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/FirstWebApp.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-S4aCTM80fnY6C5cyz/vPpXp15vQG0XKJqDSSEwZOx9w="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FirstWebApp.vjgmhqnjdx.pdb",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/4g5ydbg7qt-vjgmhqnjdx.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000029244042"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "34194"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"s1FjkNvfwB/5oYRBygyudpC7IR2R7NNmURzWo008IgE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"S4aCTM80fnY6C5cyz/vPpXp15vQG0XKJqDSSEwZOx9w=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vjgmhqnjdx"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/FirstWebApp.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-S4aCTM80fnY6C5cyz/vPpXp15vQG0XKJqDSSEwZOx9w="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FirstWebApp.vjgmhqnjdx.pdb.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/4g5ydbg7qt-vjgmhqnjdx.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "34194"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"s1FjkNvfwB/5oYRBygyudpC7IR2R7NNmURzWo008IgE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vjgmhqnjdx"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/FirstWebApp.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-s1FjkNvfwB/5oYRBygyudpC7IR2R7NNmURzWo008IgE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FirstWebApp.wasm",
+      "Route": "_framework/FirstWebApp.68g1oaldwx.wasm",
       "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/FirstWebApp.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13523,7 +13225,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53013"
+          "Value": "64789"
         },
         {
           "Name": "Content-Type",
@@ -13531,148 +13233,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X8inSwgZWYudr60waZVOOK7sjMjqO3QG8h6D0k3xd2Y=\""
+          "Value": "\"mudDFRJCqYultMDtAuhu5QZ2QkQA1cmD0ut9U/U5UEY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-X8inSwgZWYudr60waZVOOK7sjMjqO3QG8h6D0k3xd2Y="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FirstWebApp.wasm",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/86wmhtub8s-x0gmlykka8.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000048906930"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20446"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WoX8oDr+TxOGC330gyo6M614epXHaP8JlEuDD6objvM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"X8inSwgZWYudr60waZVOOK7sjMjqO3QG8h6D0k3xd2Y=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-X8inSwgZWYudr60waZVOOK7sjMjqO3QG8h6D0k3xd2Y="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FirstWebApp.wasm.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/86wmhtub8s-x0gmlykka8.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20446"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WoX8oDr+TxOGC330gyo6M614epXHaP8JlEuDD6objvM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WoX8oDr+TxOGC330gyo6M614epXHaP8JlEuDD6objvM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FirstWebApp.x0gmlykka8.wasm",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/FirstWebApp.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "53013"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"X8inSwgZWYudr60waZVOOK7sjMjqO3QG8h6D0k3xd2Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Sun, 09 Mar 2025 13:45:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13682,7 +13247,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x0gmlykka8"
+          "Value": "68g1oaldwx"
         },
         {
           "Name": "label",
@@ -13690,18 +13255,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X8inSwgZWYudr60waZVOOK7sjMjqO3QG8h6D0k3xd2Y="
+          "Value": "sha256-mudDFRJCqYultMDtAuhu5QZ2QkQA1cmD0ut9U/U5UEY="
         }
       ]
     },
     {
-      "Route": "_framework/FirstWebApp.x0gmlykka8.wasm",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/86wmhtub8s-x0gmlykka8.gz",
+      "Route": "_framework/FirstWebApp.68g1oaldwx.wasm",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/86wmhtub8s-68g1oaldwx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000048906930"
+          "Quality": "0.000043368896"
         }
       ],
       "ResponseHeaders": [
@@ -13711,15 +13276,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20446"
+          "Value": "23057"
         },
         {
           "Name": "ETag",
-          "Value": "\"WoX8oDr+TxOGC330gyo6M614epXHaP8JlEuDD6objvM=\""
+          "Value": "\"z7Rl/XuTwJuQk90Z9403ueC8YvVxJu3oO+Sibl0aSZE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Sun, 09 Mar 2025 13:45:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13739,13 +13304,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X8inSwgZWYudr60waZVOOK7sjMjqO3QG8h6D0k3xd2Y=\""
+          "Value": "W/\"mudDFRJCqYultMDtAuhu5QZ2QkQA1cmD0ut9U/U5UEY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x0gmlykka8"
+          "Value": "68g1oaldwx"
         },
         {
           "Name": "label",
@@ -13753,13 +13318,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X8inSwgZWYudr60waZVOOK7sjMjqO3QG8h6D0k3xd2Y="
+          "Value": "sha256-mudDFRJCqYultMDtAuhu5QZ2QkQA1cmD0ut9U/U5UEY="
         }
       ]
     },
     {
-      "Route": "_framework/FirstWebApp.x0gmlykka8.wasm.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/86wmhtub8s-x0gmlykka8.gz",
+      "Route": "_framework/FirstWebApp.68g1oaldwx.wasm.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/86wmhtub8s-68g1oaldwx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13768,7 +13333,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20446"
+          "Value": "23057"
         },
         {
           "Name": "Content-Type",
@@ -13776,11 +13341,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WoX8oDr+TxOGC330gyo6M614epXHaP8JlEuDD6objvM=\""
+          "Value": "\"z7Rl/XuTwJuQk90Z9403ueC8YvVxJu3oO+Sibl0aSZE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Sun, 09 Mar 2025 13:45:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13798,7 +13363,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x0gmlykka8"
+          "Value": "68g1oaldwx"
         },
         {
           "Name": "label",
@@ -13806,7 +13371,442 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WoX8oDr+TxOGC330gyo6M614epXHaP8JlEuDD6objvM="
+          "Value": "sha256-z7Rl/XuTwJuQk90Z9403ueC8YvVxJu3oO+Sibl0aSZE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FirstWebApp.efokqqzg2i.pdb",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/FirstWebApp.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VhWllB8uvefnFWZrLOBAZ13vYsTjMfF02unk3jEpwCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 13:45:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "efokqqzg2i"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/FirstWebApp.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VhWllB8uvefnFWZrLOBAZ13vYsTjMfF02unk3jEpwCc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FirstWebApp.efokqqzg2i.pdb",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/4g5ydbg7qt-efokqqzg2i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000025774524"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38797"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uxbt4+D1YcLBnu6Sx/AnZ0Ygwr8B8iye2qcVzQ8EfC8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 13:45:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VhWllB8uvefnFWZrLOBAZ13vYsTjMfF02unk3jEpwCc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "efokqqzg2i"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/FirstWebApp.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VhWllB8uvefnFWZrLOBAZ13vYsTjMfF02unk3jEpwCc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FirstWebApp.efokqqzg2i.pdb.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/4g5ydbg7qt-efokqqzg2i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uxbt4+D1YcLBnu6Sx/AnZ0Ygwr8B8iye2qcVzQ8EfC8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 13:45:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "efokqqzg2i"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/FirstWebApp.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uxbt4+D1YcLBnu6Sx/AnZ0Ygwr8B8iye2qcVzQ8EfC8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FirstWebApp.pdb",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/FirstWebApp.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VhWllB8uvefnFWZrLOBAZ13vYsTjMfF02unk3jEpwCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 13:45:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VhWllB8uvefnFWZrLOBAZ13vYsTjMfF02unk3jEpwCc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FirstWebApp.pdb",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/4g5ydbg7qt-efokqqzg2i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000025774524"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38797"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uxbt4+D1YcLBnu6Sx/AnZ0Ygwr8B8iye2qcVzQ8EfC8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 13:45:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VhWllB8uvefnFWZrLOBAZ13vYsTjMfF02unk3jEpwCc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VhWllB8uvefnFWZrLOBAZ13vYsTjMfF02unk3jEpwCc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FirstWebApp.pdb.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/4g5ydbg7qt-efokqqzg2i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uxbt4+D1YcLBnu6Sx/AnZ0Ygwr8B8iye2qcVzQ8EfC8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 13:45:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uxbt4+D1YcLBnu6Sx/AnZ0Ygwr8B8iye2qcVzQ8EfC8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FirstWebApp.wasm",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/bin/Debug/net9.0/wwwroot/_framework/FirstWebApp.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mudDFRJCqYultMDtAuhu5QZ2QkQA1cmD0ut9U/U5UEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 13:45:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mudDFRJCqYultMDtAuhu5QZ2QkQA1cmD0ut9U/U5UEY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FirstWebApp.wasm",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/86wmhtub8s-68g1oaldwx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000043368896"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23057"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z7Rl/XuTwJuQk90Z9403ueC8YvVxJu3oO+Sibl0aSZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 13:45:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mudDFRJCqYultMDtAuhu5QZ2QkQA1cmD0ut9U/U5UEY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mudDFRJCqYultMDtAuhu5QZ2QkQA1cmD0ut9U/U5UEY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FirstWebApp.wasm.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/86wmhtub8s-68g1oaldwx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23057"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z7Rl/XuTwJuQk90Z9403ueC8YvVxJu3oO+Sibl0aSZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 13:45:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z7Rl/XuTwJuQk90Z9403ueC8YvVxJu3oO+Sibl0aSZE="
         }
       ]
     },
@@ -72495,13 +72495,13 @@
       ]
     },
     {
-      "Route": "FirstWebApp.4qa5s01xae.bundle.scp.css",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/w5y23chr26-4qa5s01xae.gz",
+      "Route": "FirstWebApp.7kx45txatm.bundle.scp.css",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/w5y23chr26-7kx45txatm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000574712644"
+          "Quality": "0.000506585613"
         }
       ],
       "ResponseHeaders": [
@@ -72511,15 +72511,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1739"
+          "Value": "1973"
         },
         {
           "Name": "ETag",
-          "Value": "\"N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8=\""
+          "Value": "\"3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Tue, 04 Mar 2025 11:05:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72539,13 +72539,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI=\""
+          "Value": "W/\"GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4qa5s01xae"
+          "Value": "7kx45txatm"
         },
         {
           "Name": "label",
@@ -72553,12 +72553,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI="
+          "Value": "sha256-GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ="
         }
       ]
     },
     {
-      "Route": "FirstWebApp.4qa5s01xae.bundle.scp.css",
+      "Route": "FirstWebApp.7kx45txatm.bundle.scp.css",
       "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/scopedcss/projectbundle/FirstWebApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -72568,7 +72568,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6068"
+          "Value": "7833"
         },
         {
           "Name": "Content-Type",
@@ -72576,11 +72576,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI=\""
+          "Value": "\"GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Tue, 04 Mar 2025 11:05:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72590,7 +72590,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4qa5s01xae"
+          "Value": "7kx45txatm"
         },
         {
           "Name": "label",
@@ -72598,13 +72598,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI="
+          "Value": "sha256-GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ="
         }
       ]
     },
     {
-      "Route": "FirstWebApp.4qa5s01xae.bundle.scp.css.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/w5y23chr26-4qa5s01xae.gz",
+      "Route": "FirstWebApp.7kx45txatm.bundle.scp.css.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/w5y23chr26-7kx45txatm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72613,7 +72613,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1739"
+          "Value": "1973"
         },
         {
           "Name": "Content-Type",
@@ -72621,11 +72621,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8=\""
+          "Value": "\"3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Tue, 04 Mar 2025 11:05:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72643,7 +72643,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4qa5s01xae"
+          "Value": "7kx45txatm"
         },
         {
           "Name": "label",
@@ -72651,18 +72651,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8="
+          "Value": "sha256-3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c="
         }
       ]
     },
     {
-      "Route": "FirstWebApp.4qa5s01xae.styles.css",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/c6n9kywbar-4qa5s01xae.gz",
+      "Route": "FirstWebApp.7kx45txatm.styles.css",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/c6n9kywbar-7kx45txatm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000574712644"
+          "Quality": "0.000506585613"
         }
       ],
       "ResponseHeaders": [
@@ -72672,15 +72672,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1739"
+          "Value": "1973"
         },
         {
           "Name": "ETag",
-          "Value": "\"N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8=\""
+          "Value": "\"3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Tue, 04 Mar 2025 11:05:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72700,13 +72700,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI=\""
+          "Value": "W/\"GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4qa5s01xae"
+          "Value": "7kx45txatm"
         },
         {
           "Name": "label",
@@ -72714,12 +72714,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI="
+          "Value": "sha256-GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ="
         }
       ]
     },
     {
-      "Route": "FirstWebApp.4qa5s01xae.styles.css",
+      "Route": "FirstWebApp.7kx45txatm.styles.css",
       "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/scopedcss/bundle/FirstWebApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -72729,7 +72729,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6068"
+          "Value": "7833"
         },
         {
           "Name": "Content-Type",
@@ -72737,11 +72737,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI=\""
+          "Value": "\"GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Tue, 04 Mar 2025 11:05:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72751,7 +72751,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4qa5s01xae"
+          "Value": "7kx45txatm"
         },
         {
           "Name": "label",
@@ -72759,13 +72759,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI="
+          "Value": "sha256-GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ="
         }
       ]
     },
     {
-      "Route": "FirstWebApp.4qa5s01xae.styles.css.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/c6n9kywbar-4qa5s01xae.gz",
+      "Route": "FirstWebApp.7kx45txatm.styles.css.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/c6n9kywbar-7kx45txatm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72774,7 +72774,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1739"
+          "Value": "1973"
         },
         {
           "Name": "Content-Type",
@@ -72782,11 +72782,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8=\""
+          "Value": "\"3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Tue, 04 Mar 2025 11:05:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72804,7 +72804,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4qa5s01xae"
+          "Value": "7kx45txatm"
         },
         {
           "Name": "label",
@@ -72812,18 +72812,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8="
+          "Value": "sha256-3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c="
         }
       ]
     },
     {
       "Route": "FirstWebApp.bundle.scp.css",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/w5y23chr26-4qa5s01xae.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/w5y23chr26-7kx45txatm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000574712644"
+          "Quality": "0.000506585613"
         }
       ],
       "ResponseHeaders": [
@@ -72833,15 +72833,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1739"
+          "Value": "1973"
         },
         {
           "Name": "ETag",
-          "Value": "\"N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8=\""
+          "Value": "\"3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Tue, 04 Mar 2025 11:05:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72861,13 +72861,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI=\""
+          "Value": "W/\"GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI="
+          "Value": "sha256-GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ="
         }
       ]
     },
@@ -72882,7 +72882,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6068"
+          "Value": "7833"
         },
         {
           "Name": "Content-Type",
@@ -72890,11 +72890,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI=\""
+          "Value": "\"GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Tue, 04 Mar 2025 11:05:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72904,13 +72904,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI="
+          "Value": "sha256-GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ="
         }
       ]
     },
     {
       "Route": "FirstWebApp.bundle.scp.css.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/w5y23chr26-4qa5s01xae.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/w5y23chr26-7kx45txatm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72919,7 +72919,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1739"
+          "Value": "1973"
         },
         {
           "Name": "Content-Type",
@@ -72927,11 +72927,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8=\""
+          "Value": "\"3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Tue, 04 Mar 2025 11:05:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72949,18 +72949,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8="
+          "Value": "sha256-3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c="
         }
       ]
     },
     {
       "Route": "FirstWebApp.styles.css",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/c6n9kywbar-4qa5s01xae.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/c6n9kywbar-7kx45txatm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000574712644"
+          "Quality": "0.000506585613"
         }
       ],
       "ResponseHeaders": [
@@ -72970,15 +72970,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1739"
+          "Value": "1973"
         },
         {
           "Name": "ETag",
-          "Value": "\"N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8=\""
+          "Value": "\"3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Tue, 04 Mar 2025 11:05:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72998,13 +72998,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI=\""
+          "Value": "W/\"GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI="
+          "Value": "sha256-GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ="
         }
       ]
     },
@@ -73019,7 +73019,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6068"
+          "Value": "7833"
         },
         {
           "Name": "Content-Type",
@@ -73027,11 +73027,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI=\""
+          "Value": "\"GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Tue, 04 Mar 2025 11:05:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73041,13 +73041,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dE5X4V58mDKvW84rFQxseg4cJ/efXrRvauidMsFJAPI="
+          "Value": "sha256-GTSzFLM/wmi6oMaMfNidGVP+WiAf4+U/T4Q+8KCTrYQ="
         }
       ]
     },
     {
       "Route": "FirstWebApp.styles.css.gz",
-      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/c6n9kywbar-4qa5s01xae.gz",
+      "AssetFile": "/Users/MortenStaunstrup/src/ApplikationsUdvikling/Part2/FirstWebApp/obj/Debug/net9.0/compressed/c6n9kywbar-7kx45txatm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73056,7 +73056,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1739"
+          "Value": "1973"
         },
         {
           "Name": "Content-Type",
@@ -73064,11 +73064,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8=\""
+          "Value": "\"3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 20:25:43 GMT"
+          "Value": "Tue, 04 Mar 2025 11:05:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73086,7 +73086,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N2A+yp3vFusxLlNdYz5wjHr809cPlJitbZFT4e9XIG8="
+          "Value": "sha256-3kafp0PGDlqIUGZC16r2qjrAASqPjpQnEGRHBkPFO6c="
         }
       ]
     },

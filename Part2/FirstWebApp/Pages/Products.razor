@@ -1,6 +1,8 @@
 @inject Blazored.LocalStorage.ILocalStorageService localStore
 @page "/productpage"
+@using System.Globalization
 @using FirstWebApp.Logic
+@using Microsoft.VisualBasic.FileIO
 
 <h3>Products</h3>
 <div class="table">
@@ -29,6 +31,9 @@
             <th>
                 IsPublished
             </th>
+            <th>
+                Delete product
+            </th>
         </tr>
         </thead>
         <tbody>
@@ -45,7 +50,7 @@
                     @item.Category
                 </td>
                 <td>
-                    @item.Price.ToString("C")
+                    @item.Price.ToString("C", new CultureInfo("de-DE"))
                 </td>
                 <td>
                     @item.Stock.ToString("N0")
@@ -55,6 +60,26 @@
                 </td>
                 <td>
                     @item.IsPublished
+                </td>
+                <td>
+                    <button @onclick="() => Delete(item)" id="btn">
+                        <span class="span-mother">
+                            <span>D</span>
+                            <span>E</span>
+                            <span>L</span>
+                            <span>E</span>
+                            <span>T</span>
+                            <span>E</span>
+                          </span>
+                        <span class="span-mother2">
+                            <span class="secondletters">D</span>
+                            <span class="secondletters">E</span>
+                            <span class="secondletters">L</span>
+                            <span class="secondletters">E</span>
+                            <span class="secondletters">T</span>
+                            <span class="secondletters">E</span>
+                      </span>
+                    </button>
                 </td>
             </tr>
  
@@ -68,9 +93,17 @@
     <p>Add product</p>
 </div>
 
+<CounterComp amountOfDice="1"></CounterComp>
+
 @code {
     List<Product> ProductList = new List<Product>();
     string key = AddProduct.ProductListKey;
+
+    public async Task Delete(Product item)
+    {
+        ProductList.Remove(item);
+        await localStore.SetItemAsync("ProductsKey", ProductList);
+    }
 
     protected override async Task OnInitializedAsync()
     {

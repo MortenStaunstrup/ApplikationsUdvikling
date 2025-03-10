@@ -2,14 +2,13 @@
 @inject NavigationManager NavigationManager
 @page "/addproductpage"
 @using FirstWebApp.Logic
-<h1 class="mb-3 mt-3">Add Product</h1>
 
-<!-- 1. Inital load of category option does not work, starts with null.
- -->
+<h1 class="mb-3 mt-3">Add Product</h1>
 
 <EditForm EditContext="@EditContext" class="row p-3" OnSubmit="@HandleSubmit">
     <DataAnnotationsValidator></DataAnnotationsValidator>
     <ValidationSummary></ValidationSummary>
+    
     <div class="col-md-12 mb-3">
         <label for="name">Name</label>
         <InputText id="name" @bind-Value="ProductModel.Name" class="form-control"/>
@@ -19,12 +18,12 @@
         <InputNumber id="price" @bind-Value="ProductModel.Price" class="form-control"/>
     </div>
     <div class="col-md-6 mb-3">
-        <label for="date">Published Date</label>
-        <InputDate id="date" @bind-Value="ProductModel.Date" class="form-control"/>
-    </div>
-    <div class="col-md-6 mb-3">
         <label for="stock">Stock</label>
         <InputNumber id="stock" @bind-Value="ProductModel.Stock" class="form-control"/>
+    </div>
+    <div class="col-md-6 mb-3">
+        <label for="date">Published Date</label>
+        <InputDate id="date" @bind-Value="ProductModel.Date" class="form-control"/>
     </div>
     <div class="col-md-6 mb-3">
         <label for="category">Category</label>
@@ -48,24 +47,29 @@
             </label>
         </div>
     </div>
+    @if (FailedValidation)
+    {
+        <p style="color: red">Failed to validate</p>
+    }
     <div class="col-12 mb-3">
         <button type="submit" class="btn btn-primary">Submit</button>
     </div>
 </EditForm>
-<div class="col-12 mb-3">
-    <button class="btn btn-primary" @onclick="ClearLocalStorage">Clear store</button>
-</div>
+
+<CounterComp amountOfDice="2"></CounterComp>
 
 @code {
     private Product ProductModel = new Product{};
     private EditContext EditContext;
     private List<Product> ProductList = new List<Product>();
     public static string ProductListKey = "ProductsKey";
+    public bool FailedValidation = false;
 
     private string[] categories = new[]
     {
         "computer", "audio", "video", "memory", "other"
     };
+    
 
     protected override void OnInitialized()
     {
@@ -85,16 +89,11 @@
         await localStore.SetItemAsync(ProductListKey, ProductList);
     }
 
-    public void ClearLocalStorage()
-    {
-        ProductList = new List<Product>();
-        UpdateLocalStorage();
-    }
-
     private void HandleSubmit()
     {
         if (EditContext.Validate())
         {
+            FailedValidation = false;
             ProductList.Add(ProductModel);
             UpdateLocalStorage();
             ProductModel = new Product();
@@ -102,7 +101,7 @@
         }
         else
         {
-            Console.WriteLine("Failed to validate");
+            FailedValidation = true;
         }
     }
 

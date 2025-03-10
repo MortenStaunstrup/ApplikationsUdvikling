@@ -193,6 +193,99 @@ th[b-ao0uc29mc5] {
     transition: background 0.2s;
     margin-right: 10px;
 }
+
+button[b-ao0uc29mc5] {
+    font-weight: bold;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 95.02px;
+    height: 42.66px;
+    border: none;
+    background-color: #3653f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button .span-mother[b-ao0uc29mc5] {
+    display: flex;
+    overflow: hidden;
+}
+
+button:hover .span-mother[b-ao0uc29mc5] {
+    position: absolute;
+}
+
+button:hover .span-mother span[b-ao0uc29mc5] {
+    transform: translateY(1.2em);
+}
+
+button .span-mother span:nth-child(1)[b-ao0uc29mc5] {
+    transition: 0.2s;
+}
+
+button .span-mother span:nth-child(2)[b-ao0uc29mc5] {
+    transition: 0.3s;
+}
+
+button .span-mother span:nth-child(3)[b-ao0uc29mc5] {
+    transition: 0.4s;
+}
+
+button .span-mother span:nth-child(4)[b-ao0uc29mc5] {
+    transition: 0.5s;
+}
+
+button .span-mother span:nth-child(5)[b-ao0uc29mc5] {
+    transition: 0.6s;
+}
+
+button .span-mother span:nth-child(6)[b-ao0uc29mc5] {
+    transition: 0.7s;
+}
+
+button .span-mother2[b-ao0uc29mc5] {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+}
+
+button .span-mother2 span[b-ao0uc29mc5] {
+    transform: translateY(-1.2em);
+}
+
+button:hover .span-mother2 span[b-ao0uc29mc5] {
+    transform: translateY(0);
+}
+
+button .span-mother2 span[b-ao0uc29mc5] {
+    transition: 0.2s;
+}
+
+button .span-mother2 span:nth-child(2)[b-ao0uc29mc5] {
+    transition: 0.3s;
+}
+
+button .span-mother2 span:nth-child(3)[b-ao0uc29mc5] {
+    transition: 0.4s;
+}
+
+button .span-mother2 span:nth-child(4)[b-ao0uc29mc5] {
+    transition: 0.5s;
+}
+
+button .span-mother2 span:nth-child(5)[b-ao0uc29mc5] {
+    transition: 0.6s;
+}
+
+button .span-mother2 span:nth-child(6)[b-ao0uc29mc5] {
+    transition: 0.7s;
+}
+
+.secondletters[b-ao0uc29mc5]{
+    color: red;
+}
 /* /Pages/Todo.razor.rz.scp.css */
 table[b-dywe243tqn] {
     table-layout: fixed;
